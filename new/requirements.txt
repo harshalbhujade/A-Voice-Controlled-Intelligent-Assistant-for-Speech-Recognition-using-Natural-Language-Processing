@@ -1,0 +1,8 @@
+# ...existing code...
+SpeechRecognition
+pyttsx3
+pyaudio
+wikipedia
+pywhatkit
+requests
+openai

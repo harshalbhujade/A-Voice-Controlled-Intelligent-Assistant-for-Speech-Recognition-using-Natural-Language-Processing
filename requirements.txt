@@ -1,0 +1,9 @@
+SpeechRecognition
+pyttsx3
+pyaudio
+openai
+wikipedia
+pywhatkit
+requests
+numpy
+flask

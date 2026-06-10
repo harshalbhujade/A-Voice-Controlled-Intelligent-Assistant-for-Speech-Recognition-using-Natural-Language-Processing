@@ -1,0 +1,6 @@
+# ...existing code...
+import os
+
+# Prefer an env var, fallback to literal placeholder
+apikey = os.getenv("OPENAI_API_KEY", "Your-Open-AI-Key")
+# ...existing code...

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Main Interface -->
+        <div class="echo-wrapper">
+            <h1 class="logo">E C H O</h1>
+            <p class="subtitle">AI Voice Assistant</p>
+            
+            <div id="orb" class="orb idle">
+                <div class="core"></div>
+                <div class="ring ring1"></div>
+                <div class="ring ring2"></div>
+                <div class="ring ring3"></div>
+            </div>
+
+            <p id="status-text" class="status-text">Click to Wake</p>
+        </div>
+
+        <!-- Chat Output & Input -->
+        <div class="chat-container">
+            <div id="chat-box" class="chat-box">
+                <!-- Messages go here -->
+                <div class="message system-msg">
+                    <p>Welcome. How can I help you today?</p>
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <input type="text" id="text-input" placeholder="Type a command...">
+                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                <div class="divider"></div>
+                <button id="mic-btn" class="mic-btn"><i class="fas fa-microphone"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
