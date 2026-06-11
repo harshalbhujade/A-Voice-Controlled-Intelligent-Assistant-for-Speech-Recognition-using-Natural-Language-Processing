@@ -104,23 +104,6 @@ Echo/
 └── README.md
 
 
-⚙️ Installation
-1. Clone Repository
-git clone https://github.com/yourusername/echo-voice-assistant.git
-cd echo-voice-assistant
-2. Create Virtual Environment
-python -m venv venv
-3. Activate Environment
-
-Windows:
-
-venv\Scripts\activate
-
-Mac/Linux:
-
-source venv/bin/activate
-4. Install Dependencies
-pip install -r requirements.txt
 🔑 Configure API Keys
 
 Create a config.py file:
