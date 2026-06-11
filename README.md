@@ -16,7 +16,10 @@ Process user intent using NLP techniques
 Perform predefined actions
 Retrieve real-time information
 Respond through both text and speech
+
+
 🚀 Features
+
 🎤 Voice Command Recognition
 💬 Text-Based Interaction
 🔊 Text-to-Speech Responses
@@ -27,6 +30,8 @@ Respond through both text and speech
 🤖 OpenAI API Integration (for advanced conversational responses)
 🎨 Modern Interactive User Interface
 ⚡ Real-Time Communication using Flask APIs
+
+
 🏗️ System Architecture
 
 User Input (Voice/Text)
